@@ -1,0 +1,24 @@
+# SBT build
+target/
+project/target/
+project/project/
+
+# IntelliJ / IDE
+.idea/
+*.iml
+.bsp/
+.metals/
+.vscode/
+
+# Spark / local warehouse
+spark-warehouse/
+derby.log
+
+# Generated data/outputs
+out/
+data/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
